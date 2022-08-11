@@ -1,7 +1,7 @@
 /**
 *
 * Purpose: To grab the ID of a lookup and have access to it in a callback making it synchronous.
-* Tyler Rainey : Techosystems 10/08/20
+* Tyler Rainey
 **/
 getLookupValue: function(lookup, text, cb) {
     var esq = Ext.create("Terrasoft.EntitySchemaQuery", {

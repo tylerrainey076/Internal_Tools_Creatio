@@ -1,7 +1,7 @@
 /**
 *
 * Purpose: To sum the field of a desired lookup.
-* Tyler Rainey : Techosystems 10/13/20
+* Tyler Rainey
 **/
 getSum: function(filter, obj, sumColumn, cb) {
     let sum = 0;

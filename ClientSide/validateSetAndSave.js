@@ -1,7 +1,7 @@
 /**
 *
 * Purpose: To reduce the amount of saves when setting a value from a repetitive trigger.
-* Tyler Rainey : Techosystems 10/08/20
+* Tyler Rainey
 **/
 validateSetAndSave: function(dbName, newValue) {
     const oldValue = this.get(dbName);

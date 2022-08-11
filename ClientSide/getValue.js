@@ -1,7 +1,7 @@
 /**
 *
 * Purpose: Get value(s) easily when you only have the Id.
-* Tyler Rainey : Techosystems 10/08/20
+* Tyler Rainey
 **/
 getValue: function(id, obj, value, cb) {
     value = Array.isArray(value) ? value : [value];
